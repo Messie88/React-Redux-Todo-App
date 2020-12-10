@@ -1,7 +1,7 @@
 const initialState = [
-  { id: 0, text: 'Learn React', completed: true },
-  { id: 1, text: 'Learn Redux', completed: false, color: 'purple' },
-  { id: 2, text: 'Build something fun!', completed: false, color: 'blue' },
+  //   { id: 0, text: 'Learn React', completed: true },
+  //   { id: 1, text: 'Learn Redux', completed: false, color: 'purple' },
+  //   { id: 2, text: 'Build something fun!', completed: false, color: 'blue' },
 ]
 
 const nextTodoId = (todos) => {
@@ -19,7 +19,7 @@ const todosReducer = (state = initialState, action) => {
         // and the new todo object
         {
           // Use an auto-incrementing numeric ID for this example
-          id: nextTodoId(state.todos),
+          id: nextTodoId(state),
           text: action.payload,
           completed: false,
         },
