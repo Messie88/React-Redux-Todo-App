@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux'
 
-import todosReducer from './features/todos/todoSlice'
-import filtersReducer from './features/filters/filtersSlice'
+import todosReducer from './features/Todos/todoSlice'
+import filtersReducer from './features/Filters/filtersSlice'
 
 // const rootReducer = (state, action) => {
 //   // always return a new object for the root state

@@ -1,4 +1,5 @@
 import React from 'react'
+import Header from './features/Header'
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         </section>
       </nav>
       <section>
-        <h2>Welcome to the Redux Fundamentals example app!</h2>
+        <Header />
       </section>
     </div>
   )
